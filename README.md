@@ -52,7 +52,7 @@ output: 'hsl(0, 0%, 50%)'
 
 # API
 
-## `colorBetween(startColor, endColor, gradientDegree = 0.5, outputFormat = 'hsl')` => `color:String`
+## `colorBetween(startColor, endColor, gradientDegree, outputFormat)` => `color:String`
 
 ### `startColor`:`String` and `endColor`:`String`
 valid color string (eg, `hsl(0, 100%, 100%)`, `rgb(100, 100, 100)`,  `rgba(0, 0, 0, 0.5)`, `#fff`).
