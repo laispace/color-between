@@ -1,0 +1,38 @@
+{
+  "name": "color-between",
+  "version": "1.0.0",
+  "description": "get a gradient color between two colors",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test-travis": "nyc npm test && nyc report --reporter=lcov",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laispace/color-between.git"
+  },
+  "keywords": [
+    "color between",
+    "between color",
+    "color lerp",
+    "lerp color",
+    "gradient color"
+  ],
+  "author": "laispace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laispace/color-between/issues"
+  },
+  "homepage": "https://github.com/laispace/color-between#readme",
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
+    "coveralls": "^2.13.1"
+  },
+  "dependencies": {
+    "color": "^2.0.0"
+  }
+}
