@@ -52,9 +52,9 @@ output: 'hsl(0, 0%, 50%)'
 
 # API
 
-## `colorBetween(startColorString, endColorString, gradientDegree = 0.5, outputFormat = 'hsl')` => `colorString:String`
+## `colorBetween(startColor, endColor, gradientDegree = 0.5, outputFormat = 'hsl')` => `color:String`
 
-### `startColorString`:`String` and `endColorString`:`String`
+### `startColor`:`String` and `endColor`:`String`
 valid color string (eg, `hsl(0, 100%, 100%)`, `rgb(100, 100, 100)`,  `rgba(0, 0, 0, 0.5)`, `#fff`).
 Also, support input of [`color`](https://www.npmjs.com/package/color) package.
 
@@ -68,7 +68,7 @@ output string format type, support these format:
  - `rgb`
  - `hex`
 
-### `colorString`:`String`
+### `color`:`String`
 
 return a color string with `outputFormat` format type.
 
