@@ -30,7 +30,8 @@
   "devDependencies": {
     "expect": "^21.2.1",
     "mocha": "^4.0.1",
-    "coveralls": "^2.13.1"
+    "coveralls": "^2.13.1",
+    "nyc": "^11.1.0"
   },
   "dependencies": {
     "color": "^2.0.0"
